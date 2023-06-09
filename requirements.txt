@@ -1,0 +1,5 @@
+bardapi
+openai
+dotenv
+streamlit
+transformers
