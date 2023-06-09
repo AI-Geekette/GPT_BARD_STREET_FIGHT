@@ -42,18 +42,14 @@ guide_prompt = """You are in a conversation with a very smart chatbot about  fre
     I want you to engage in the conversation and be reasonably challenging. Please generate a response based on 
     the following message: """
 def chat_with_gpt(message):
-    conversation_history.append(("Init_prompt", message))
-    # Generate GPT response
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt= message,
-        temperature=0.7,
-        max_tokens=max_gpt_tokens,
-        frequency_penalty=1,
-        presence_penalty=1
-    )
-    gpt_response = response.choices[0].text.strip()
-
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+                {"role": "system", "content": guide_prompt}, 
+                {"role": "user", "content": message}
+            ]
+        )
+    gpt_response = response['choices'][0]['message']['content']
     conversation_history.append(("GPT", gpt_response))  # Add GPT response to the conversation history
 
     return gpt_response
@@ -66,8 +62,9 @@ def main():
     user_input = st.text_input("Init_prompt", init_prompt)
     # Process user input and display conversation
     if user_input:
-        # Start conversation timer
+        # Set the first prompt to initiate the conversation to user_input prompt
         bard_response = user_input
+        # Start conversation timer
         start_time = time.time()
         i = 0
         while (time.time() - start_time) < 30:
