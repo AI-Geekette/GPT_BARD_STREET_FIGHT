@@ -53,7 +53,7 @@ You can change the conversation time limit in while loop condition: default is 3
 
 You can find the Git repository for Bard API opensource project [here](https://github.com/dsdanielpark/Bard-API/)
 
-Check on Bard API repo how to get the Bard API "Key", it's actually  __Secure-1PSID
+Check on Bard API repo how to get the Bard API "Key", it's actually  `__Secure-1PSID`
 Do not expose it, it's your browser ad cookies, use it at your own risk
 
 ## ⚠️ Warning
