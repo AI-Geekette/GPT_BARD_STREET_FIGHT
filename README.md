@@ -51,7 +51,7 @@ You can change the conversation time limit in while loop condition: default is 3
 
 ## Link to Bard API repo
 
-https://github.com/dsdanielpark/Bard-API/blob/main/README.md
+You can find the Git repository for Bard API opensource project [here](https://github.com/dsdanielpark/Bard-API/)
 
 Check on Bard API repo how to get the Bard API "Key", it's actually  __Secure-1PSID
 Do not expose it, it's your browser ad cookies, use it at your own risk
@@ -70,6 +70,5 @@ bardgpt_env/*
 
 ## BARD & CHATGPT Conversation notes in Notion.so
 
-Give it a read if you ae curious about the conversation betweent the two most controvertial LLMs about free will and determinism.
+Give it a read [here] (https://sandy-concrete-1af.notion.site/ChatGPT-vs-BARD-update-enhancement-64b5e38d61944416b66d8ccd96c39170?pvs=4) if you ae curious about the conversation betweent the two most controvertial LLMs about free will and determinism.
 
-https://sandy-concrete-1af.notion.site/ChatGPT-vs-BARD-update-enhancement-64b5e38d61944416b66d8ccd96c39170?pvs=4
