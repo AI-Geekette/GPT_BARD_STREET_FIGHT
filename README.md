@@ -1,5 +1,5 @@
 # GPT & BARD CONVERSATIONAL APP
-Can you guess who would win the conversation if we put chatgpt and bard to a conversational challenge?
+Can you guess who would win the conversation if we put `ChatGPT` and ` Bard ` to a conversational challenge?
 
 ## Run Locally
 
@@ -69,6 +69,11 @@ bardgpt_env/*
 ```
 
 ## BARD & CHATGPT Conversation notes in Notion.so
+
+<p align="left">
+<a><img alt="PyPI package" src="https://img.shields.io/badge/pypi-BardAPI-black"></a>
+</p>
+
 
 Give it a read [here](https://sandy-concrete-1af.notion.site/ChatGPT-vs-BARD-update-enhancement-64b5e38d61944416b66d8ccd96c39170?pvs=4) if you ae curious about the conversation betweent the two most controvertial LLMs about free will and determinism.
 
